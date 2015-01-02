@@ -10,8 +10,9 @@ Here are some of the documents that informed the style guide.
 * [raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
 
 ## Table of Contents
-* [Spacing](#Spacing)
-* [Braces](#Braces)
+* [Spacing](#spacing)
+* [Braces](#braces)
+* [Naming](#naming)
 
 
 
@@ -25,9 +26,9 @@ Here are some of the documents that informed the style guide.
 
 
 ## Braces
-Method braces and other braces (if/else/switch/while etc.) 
-always open on the same line as the statement but close on a new line.
-Use 2 spaces, opening brace on same line
+* Method braces and other braces (if/else/switch/while etc.) 
+* Always open on the same line as the statement but close on a new line.
+* Use 2 spaces, opening brace on same line
 ```swift
 if true {
     //Do something
@@ -35,3 +36,8 @@ if true {
     //Do something else
 }
 ```
+
+## Naming
+* Use descriptive names with camel case for classes, methods, variables, etc. 
+* Class names and constants in module scope should be capitalized, 
+* Method names and variables should start with a lower case letter.
