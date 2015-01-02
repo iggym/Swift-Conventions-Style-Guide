@@ -17,6 +17,7 @@ Here are some of the documents that informed the style guide.
 * [Naming Variables and Constants](#naming-variables-and-constants)
 * [Naming Swift Modules](#naming-swift-modules)
 * [Function Declarations](#function-declarations)
+* [Use self sparingly](#Use-self-sparingly)
 
 
 
@@ -155,5 +156,34 @@ func reticulateSplines(spline: [Double], adjustmentFactor: Double,
     translateConstant: Int, comment: String) -> Bool {
         // reticulate code goes here
            return isSomeStuff
+}
+```
+
+## Use self sparingly
+Use self when required to differentiate between property names and arguments
+in initializers, and when referencing properties in closures
+to make capture semantics explicit
+```swift
+    init(x: Int, y: Int, radius: Double) {
+        self.x = x
+        self.y = y
+        self.radius = radius
+    }
+    
+    convenience init(x: Int, y: Int, diameter: Double) {
+        self.init(x: x, y: y, radius: diameter / 2)
+    }
+    
+    func describe() -> String {
+        return "I am a circle at \(centerString()) with an area of \(computeArea())"
+    }
+    
+    func computeArea() -> Double {
+        return M_PI * radius * radius
+    }
+    
+    private func centerString() -> String {
+        return "(\(x),\(y))"
+    }
 }
 ```
