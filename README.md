@@ -41,3 +41,14 @@ if true {
 * Use descriptive names with camel case for classes, methods, variables, etc. 
 * Class names and constants in module scope should be capitalized, 
 * Method names and variables should start with a lower case letter.
+* Use Pascal Case for Classes, Structs, Enumerations
+* You should not add prefixes to your Swift types.
+
+```swift
+class SomeClass {
+    // class definition goes here
+}
+struct SomeStructure {
+    // structure definition goes here
+}
+```
