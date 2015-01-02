@@ -14,7 +14,7 @@ Here are some of the documents that informed the style guide.
 * [Comments](#comments)
 * [Braces](#braces)
 * [Naming Types](#naming-types)
-* [Naming Types](#naming-variables-constants)
+* [Naming Variables and Constants](#naming-variables-and-constants)
 
 
 
