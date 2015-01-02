@@ -27,16 +27,18 @@ Here are some of the documents that informed the style guide.
 
 
 ## Comments 
-* Comments Why NOT What
+* Comment Why NOT What
 * Comments should be current and relevant to explaining why
-Use comments to explain WHY a particular piece of code does something. 
-Type and member names should provide What, nouns and verbs
+
 ```swift
 //does Some Stuff because there is stuff to do
 func doSomeStuff(){
     
 }
 ```
+
+Use comments to explain WHY a particular piece of code does something. 
+Type and member names should provide What, nouns and verbs
 
 ## Braces
 * Method braces and other braces (if/else/switch/while etc.) 
