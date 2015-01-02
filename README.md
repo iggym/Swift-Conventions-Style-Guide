@@ -18,8 +18,8 @@ Here are some of the documents that informed the style guide.
 * [Naming Swift Modules](#naming-swift-modules)
 * [Function Declarations](#function-declarations)
 * [Use self sparingly](#use-self-sparingly)
-* [ Closures Declarations](#closures-declarations)
-
+* [Closures Declarations](#closures-declarations)
+* [ Well-styled class definition example](#well-styled-class-definition-example)
 
 
 
@@ -207,3 +207,22 @@ attendeeList.sort { a, b in
     a > b
 }
 ```
+
+## Well-styled class definition example:
+An example of a well-styled class definition:
+```swift
+class Shape {
+    // class definition goes here
+}
+class Circle: Shape {
+    var x: Int, y: Int
+    var radius: Double
+    var diameter: Double {
+        get {
+            return radius * 2
+        }
+        set {
+            radius = newValue / 2
+        }
+    }
+ ```
