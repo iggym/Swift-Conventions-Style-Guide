@@ -11,6 +11,7 @@ Here are some of the documents that informed the style guide.
 
 ## Table of Contents
 * [Spacing](#spacing)
+* [Comments](#comments)
 * [Braces](#braces)
 * [Naming](#naming)
 
@@ -24,6 +25,18 @@ Here are some of the documents that informed the style guide.
 * Spaces conserve space and help prevent line wrapping.
 * Be sure to set this preference in Xcode.
 
+
+## Comments 
+* Comments Why NOT What
+* Comments should be current and relevant to explaining why
+Use comments to explain WHY a particular piece of code does something. 
+Type and member names should provide What, nouns and verbs
+```swift
+//does Some Stuff because there is stuff to do
+func doSomeStuff(){
+    
+}
+```
 
 ## Braces
 * Method braces and other braces (if/else/switch/while etc.) 
