@@ -10,7 +10,8 @@ Here are some of the documents that informed the style guide.
 * [raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
 
 ## Table of Contents
-* [Spacing](#spacing)
+* [Spacing](#Spacing)
+* [Braces](#Braces)
 
 
 
@@ -21,3 +22,16 @@ Here are some of the documents that informed the style guide.
 * Indent using 2 spaces rather than tabs 
 * Spaces conserve space and help prevent line wrapping.
 * Be sure to set this preference in Xcode.
+
+
+## Braces
+Method braces and other braces (if/else/switch/while etc.) 
+always open on the same line as the statement but close on a new line.
+Use 2 spaces, opening brace on same line
+```swift
+if true {
+    //Do something
+} else {
+    //Do something else
+}
+```
