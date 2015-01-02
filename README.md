@@ -17,7 +17,7 @@ Here are some of the documents that informed the style guide.
 * [Naming Variables and Constants](#naming-variables-and-constants)
 * [Naming Swift Modules](#naming-swift-modules)
 * [Function Declarations](#function-declarations)
-* [Use self sparingly](#Use-self-sparingly)
+* [Use self sparingly](#use-self-sparingly)
 
 
 
