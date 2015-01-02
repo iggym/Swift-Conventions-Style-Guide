@@ -18,6 +18,8 @@ Here are some of the documents that informed the style guide.
 * [Naming Swift Modules](#naming-swift-modules)
 * [Function Declarations](#function-declarations)
 * [Use self sparingly](#use-self-sparingly)
+* [ Closures Declarations](#closures-declarations)
+
 
 
 
@@ -185,5 +187,23 @@ to make capture semantics explicit
     private func centerString() -> String {
         return "(\(x),\(y))"
     }
+}
+```
+## Closures Declarations
+* Use trailing closure syntax wherever possible.
+* give the closure parameters descriptive name
+* For single-expression closures where the context is clear, use implicit returns
+
+Use trailing closure syntax wherever possible. 
+In all cases, give the closure parameters descriptive names:
+```swift
+return SKAction.customActionWithDuration(effect.duration) { node, elapsedTime in
+    // more code goes here
+}
+```
+For single-expression closures where the context is clear, use implicit returns:
+```swift
+attendeeList.sort { a, b in
+    a > b
 }
 ```
