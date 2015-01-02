@@ -15,7 +15,7 @@ Here are some of the documents that informed the style guide.
 * [Braces](#braces)
 * [Naming Types](#naming-types)
 * [Naming Variables and Constants](#naming-variables-and-constants)
-* [Naming  Swift Modules](#naming-swift-modules)
+* [Naming Swift Modules](#naming-swift-modules)
 
 
 
@@ -113,7 +113,7 @@ class Counter {
 }
 ```
 
-## Naming  Swift Modules
+## Naming Swift Modules
 * Use Pascal Case for modules
 * Namespacing is implicit in swift,
 * No class prefixes needed
