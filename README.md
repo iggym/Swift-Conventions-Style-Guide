@@ -16,6 +16,7 @@ Here are some of the documents that informed the style guide.
 * [Naming Types](#naming-types)
 * [Naming Variables and Constants](#naming-variables-and-constants)
 * [Naming Swift Modules](#naming-swift-modules)
+* [Function Declarations](#function-declarations)
 
 
 
@@ -125,9 +126,34 @@ Namespaces are not per-file.
 They're per-target (based on the "Product Module Name" build setting).
 ```swift
 // Pascal Case for modules
-//import FrameworkA
-//import FrameworkB
+import FrameworkA
+import FrameworkB
 
 //using type in framework
 FrameworkA.foo()
+```
+
+## Function Declarations
+* short function declarations on one line including the opening brace
+* For functions with long signatures, add line breaks at appropriate points
+*
+
+Keep short function declarations on one line including the opening brace:
+```swift
+var isSomeStuff:Bool = true
+
+func reticulateSplines(spline: [Double]) -> Bool {
+    // reticulate code goes here
+    return isSomeStuff
+}
+```
+
+For functions with long signatures, add line breaks at appropriate points 
+and add an extra indent on subsequent lines:
+```swift
+func reticulateSplines(spline: [Double], adjustmentFactor: Double,
+    translateConstant: Int, comment: String) -> Bool {
+        // reticulate code goes here
+           return isSomeStuff
+}
 ```
