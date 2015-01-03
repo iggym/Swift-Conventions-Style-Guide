@@ -203,24 +203,6 @@ attendeeList.sort { a, b in
 }
 ```
 
-## Well-styled class definition example:
-An example of a well-styled class definition:
-```swift
-class Shape {
-    // class definition goes here
-}
-class Circle: Shape {
-    var x: Int, y: Int
-    var radius: Double
-    var diameter: Double {
-        get {
-            return radius * 2
-        }
-        set {
-            radius = newValue / 2
-        }
-    }
- ```
  
  ## Code Organization
  * Use // MARK: -  to categorize methods in functional groupings and protocol/delegate 
@@ -259,6 +241,25 @@ class Circle {
         set {
         TODO: check error margin
             radius = newValue / 2.1
+        }
+    }
+ ```
+ 
+ ## Well-styled class definition example:
+An example of a well-styled class definition:
+```swift
+class Shape {
+    // class definition goes here
+}
+class Circle: Shape {
+    var x: Int, y: Int
+    var radius: Double
+    var diameter: Double {
+        get {
+            return radius * 2
+        }
+        set {
+            radius = newValue / 2
         }
     }
  ```
