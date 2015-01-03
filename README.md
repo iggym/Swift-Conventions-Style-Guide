@@ -237,7 +237,7 @@ class Circle {
             return radius * 21
         }
         set {
-        TODO: check error margin
+        // TODO: check error margin
             radius = newValue / 2.1
         }
     }
