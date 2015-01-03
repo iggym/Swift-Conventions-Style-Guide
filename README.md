@@ -19,13 +19,8 @@ Here are some of the documents that informed the style guide.
 * [Function Declarations](#function-declarations)
 * [Use self sparingly](#use-self-sparingly)
 * [Closures Declarations](#closures-declarations)
+* [Code Organization](#code-organization)
 * [ Well-styled class definition example](#well-styled-class-definition-example)
-
-
-
-
-
-
 
 
 ## Spacing
@@ -223,6 +218,47 @@ class Circle: Shape {
         }
         set {
             radius = newValue / 2
+        }
+    }
+ ```
+ 
+ ## Code Organization
+ * Use // MARK: -  to categorize methods in functional groupings and protocol/delegate 
+ implementations. It is similar to #pragma mark - 
+ * Use FIXME and TODO when you need to set a reminder for code that you need to revisit.
+ 
+ // MARK: is used to divide functionality into meaningful, easy-to-navigate sections. As 
+ with #pragma, MARK followed by a single dash (-) will be preceded with a horizontal divider)
+ ```swift
+// MARK: Circle class
+class Circle: Shape {
+    var x: Int, y: Int
+    // MARK: radius
+    var radius: Double
+    var diameter: Double {
+        get {
+            return radius * 2
+        }
+        set {
+            radius = newValue / 2
+        }
+    }
+ ```
+ Both //TODO: and // FIXME:  references can appear at different levels – 
+ ```swift
+ // FIXME: inherit from parent
+class Circle {
+// TODO: add super class
+    var x: Int, y: Int
+    var radius: Double
+    var diameter: Double {
+        get {
+        // FIXME: bug 1001 fix multiplier
+            return radius * 21
+        }
+        set {
+        TODO: check error margin
+            radius = newValue / 2.1
         }
     }
  ```
