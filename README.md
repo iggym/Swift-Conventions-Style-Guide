@@ -203,8 +203,7 @@ attendeeList.sort { a, b in
 }
 ```
 
- 
- ## Code Organization
+## Code Organization
  * Use // MARK: -  to categorize methods in functional groupings and protocol/delegate 
  implementations. It is similar to #pragma mark - 
  * Use FIXME and TODO when you need to set a reminder for code that you need to revisit.
