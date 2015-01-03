@@ -5,9 +5,7 @@ The goals for this Swift Style Guide are to encourage readable and concise swift
 ## Introduction
 This guide is just a guideline and should not force a particular coding style.
 Any violation to the guide is allowed if it enhances readability and conciseness. 
-Here are some of the documents that informed the style guide. 
-* [Github swift style guide](https://github.com/github/swift-style-guide)
-* [raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
+
 
 ## Table of Contents
 * [Spacing](#spacing)
@@ -21,6 +19,7 @@ Here are some of the documents that informed the style guide.
 * [Closures Declarations](#closures-declarations)
 * [Code Organization](#code-organization)
 * [ Well-styled class definition example](#well-styled-class-definition-example)
+* [Reference](#reference)
 
 
 ## Spacing
@@ -262,3 +261,9 @@ class Circle: Shape {
         }
     }
  ```
+ 
+ ## Reference
+ Here are some of the documents that informed this style guide:
+ 
+* [Github swift style guide](https://github.com/github/swift-style-guide)
+* [raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
