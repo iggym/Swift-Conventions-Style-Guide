@@ -243,7 +243,7 @@ class Circle {
     }
  ```
  
- ## Well-styled class definition example:
+## Well-styled class definition example:
 An example of a well-styled class definition:
 ```swift
 class Shape {
@@ -262,7 +262,7 @@ class Circle: Shape {
     }
  ```
  
- ## Reference
+## Reference
  Here are some of the documents that informed this style guide:
  
 * [Github swift style guide](https://github.com/github/swift-style-guide)
