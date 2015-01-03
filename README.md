@@ -23,7 +23,7 @@ Any violation to the guide is allowed if it enhances readability and conciseness
 
 
 ## Spacing
-* Indent using 2 spaces rather than tabs 
+* Indent using 2 spaces rather than tabs. 
 * Spaces conserve space and help prevent line wrapping.
 * Be sure to set this preference in Xcode.
 
