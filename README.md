@@ -21,7 +21,6 @@ Any violation to the guide is allowed if it enhances readability and conciseness
 * [ Well-styled class definition example](#well-styled-class-definition-example)
 * [Reference](#reference)
 
-
 ## Spacing
 * Indent using 2 spaces rather than tabs. 
 * Spaces conserve space and help prevent line wrapping.
