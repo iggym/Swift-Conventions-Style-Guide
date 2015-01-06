@@ -28,7 +28,7 @@ Any violation to the guide is allowed if it enhances readability and conciseness
 
 
 ## Comments 
-* Comment Why NOT What
+* Comment should describe Why NOT What
 * Comments should be current and relevant to explaining why
 
 ```swift
