@@ -39,7 +39,7 @@ func doSomeStuff(){
 ```
 
 Use comments to explain WHY a particular piece of code does something. 
-Type and member names should provide What, nouns and verbs
+Type and member names should provide the What. They should be nouns or verbs.
 
 ## Braces
 * Method braces and other braces (if/else/switch/while etc.) 
