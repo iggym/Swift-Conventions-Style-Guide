@@ -28,7 +28,7 @@ Any violation to the guide is allowed if it enhances readability and conciseness
 
 
 ## Comments 
-* Comment should describe Why NOT What
+* Comments should describe Why NOT What. Why the code is implemented in a particular way.
 * Comments should be current and relevant to explaining why
 
 ```swift
@@ -55,9 +55,9 @@ if true {
 
 ## Naming Types
 * Use descriptive names with camel case for classes, methods, variables, etc. 
-* Class names and constants in module scope should be capitalized, 
+* Class names and constants in module scope should be capitalized.
 * Method names and variables should start with a lower case letter.
-* Use Pascal Case for Classes, Structs, Enumerations
+* Use Pascal Case for Classes, Structs, Enumerations.
 * You should not add prefixes to your Swift types.
 
 ```swift
@@ -82,7 +82,7 @@ if rememberedDirection == .West {
 ```
 
 ## Naming Variables and Constants
-* Use Camel Case for methods, functions, variables and constants
+* Use Camel Case for methods, functions, variables and constants.
 ```swift
 //code
 struct Resolution {
