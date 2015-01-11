@@ -44,7 +44,7 @@ Type and member names should provide the What. They should be nouns or verbs.
 ## Braces
 * Method braces and other braces (if/else/switch/while etc.) 
 * Always open on the same line as the statement but close on a new line.
-* Use 2 spaces, opening brace on same line
+* Use 2 spaces, opening brace on same line.
 ```swift
 if true {
     //Do something
@@ -58,7 +58,7 @@ if true {
 * Class names and constants in module scope should be capitalized.
 * Method names and variables should start with a lower case letter.
 * Use Pascal Case for Classes, Structs, Enumerations.
-* You should not add prefixes to your Swift types.
+* You should not add prefixes to your Swift type names.
 
 ```swift
 class SomeClass {
@@ -111,9 +111,9 @@ class Counter {
 ```
 
 ## Naming Swift Modules
-* Use Pascal Case for modules
-* Namespacing is implicit in swift,
-* No class prefixes needed
+* Use Pascal Case for modules.
+* Namespacing is implicit in swift.
+* No class prefixes needed.
 
 Swift Module names are Pascal Case.
 All classes (etc) are implicitly scoped by the module (Xcode target) they are in.
@@ -130,9 +130,9 @@ FrameworkA.foo()
 ```
 
 ## Function Declarations
-* short function declarations on one line including the opening brace
+* Short function declarations on one line including the opening brace
 * For functions with long signatures, add line breaks at appropriate points
-*
+
 
 Keep short function declarations on one line including the opening brace:
 ```swift
