@@ -130,8 +130,8 @@ FrameworkA.foo()
 ```
 
 ## Function Declarations
-* Short function declarations on one line including the opening brace
-* For functions with long signatures, add line breaks at appropriate points
+* Short function declarations on one line including the opening brace.
+* For functions with long signatures, add line breaks at appropriate points.
 
 
 Keep short function declarations on one line including the opening brace:
