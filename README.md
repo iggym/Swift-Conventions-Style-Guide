@@ -117,9 +117,8 @@ class Counter {
 
 Swift Module names are Pascal Case.
 All classes (etc) are implicitly scoped by the module (Xcode target) they are in.
-no class prefixes needed. 
-Namespaces are not per-file. 
-They're per-target (based on the "Product Module Name" build setting).
+Unlike Objective-C No class prefixes are needed. 
+Namespaces are not per-file. They're per-target (based on the "Product Module Name" build setting).
 ```swift
 // Pascal Case for modules
 import FrameworkA
