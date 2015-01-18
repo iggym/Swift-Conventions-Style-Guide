@@ -156,7 +156,7 @@ func reticulateSplines(spline: [Double], adjustmentFactor: Double,
 ## Use self sparingly
 Use self when required to differentiate between property names and arguments
 in initializers, and when referencing properties in closures
-to make capture semantics explicit
+to make capture semantics explicit.
 ```swift
     init(x: Int, y: Int, radius: Double) {
         self.x = x
@@ -183,8 +183,8 @@ to make capture semantics explicit
 ```
 ## Closures Declarations
 * Use trailing closure syntax wherever possible.
-* give the closure parameters descriptive name
-* For single-expression closures where the context is clear, use implicit returns
+* Give the closure parameters descriptive name.
+* For single-expression closures where the context is clear, use implicit returns.
 
 Use trailing closure syntax wherever possible. 
 In all cases, give the closure parameters descriptive names:
