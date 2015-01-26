@@ -29,7 +29,7 @@ Any violation to the guide is allowed if it enhances readability and conciseness
 
 ## Comments 
 * Comments should describe Why NOT What. Why the code is implemented in a particular way.
-* Comments should be current and relevant to explaining why
+* Comments should be current and relevant to explaining why.
 
 ```swift
 //does Some Stuff because there is stuff to do
@@ -261,7 +261,7 @@ class Circle: Shape {
  ```
  
 ## Reference
- Here are some of the documents that informed this style guide:
+ Here are some of the documents that informed this code style guide:
  
 * [Github swift style guide](https://github.com/github/swift-style-guide)
 * [raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
