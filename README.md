@@ -1,4 +1,4 @@
-# Swift Conventions and Style Guide.(updated for Swift 2.0)
+# Swift Conventions and Style Guide.
 
 The goals for this Swift Style Guide are to encourage readable and concise swift code.
 
@@ -265,3 +265,4 @@ class Circle: Shape {
  
 * [Github swift style guide](https://github.com/github/swift-style-guide)
 * [raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
+* [The Sport Ngin Swift Style Guide](http://sportngin.github.io/styleguide/objective-c.html)
