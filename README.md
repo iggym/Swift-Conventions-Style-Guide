@@ -266,3 +266,4 @@ class Circle: Shape {
 * [Github swift style guide](https://github.com/github/swift-style-guide)
 * [raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
 * [The Sport Ngin Swift Style Guide](http://sportngin.github.io/styleguide/objective-c.html)
+* [Another Swift Style Guide](https://github.com/netguru/swift-style-guide)
