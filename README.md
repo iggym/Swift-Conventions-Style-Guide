@@ -260,6 +260,7 @@ class Circle: Shape {
     }
  ```
  
+ 
 ## Reference
  Here are some of the documents that informed this code style guide:
  
