@@ -268,5 +268,5 @@ class Circle: Shape {
 * [raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
 * [The Sport Ngin Swift Style Guide](http://sportngin.github.io/styleguide/objective-c.html)
 * [Another Swift Style Guide](https://github.com/netguru/swift-style-guide)
-* [Language Guide](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309)
+* [Swift Language Guide](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309)
 
