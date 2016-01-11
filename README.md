@@ -6,7 +6,6 @@ The goals for this Swift Style Guide are to encourage readable and concise swift
 This guide is just a guideline and should not force a particular coding style.
 Any violation to the guide is allowed if it enhances readability and conciseness. 
 
-
 ## Table of Contents
 * [Spacing](#spacing)
 * [Comments](#comments)
