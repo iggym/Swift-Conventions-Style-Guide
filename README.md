@@ -28,7 +28,6 @@ Any violation to the guide is allowed if it enhances readability and conciseness
 * Spaces conserve space and help prevent line wrapping.
 * Be sure to set this preference in Xcode.
 
-
 ## Comments 
 * Comments should describe Why NOT What. Why the code is implemented in a particular way.
 * Comments should be current and relevant to explaining why.
@@ -262,8 +261,7 @@ class Circle: Shape {
     }
  ```
  
- 
-## Reference
+ ## Reference
  Here are some of the documents that informed this code style guide:
  
 * [Github swift style guide](https://github.com/github/swift-style-guide)
