@@ -19,6 +19,7 @@ Any violation to the guide is allowed if it enhances readability and conciseness
 * [Types](#closures-declarations)
 * [Control Flow](#closures-declarations)
 * [Types](#closures-declarations)
+* [Error Handling](#closures-declarations)
 * [Code Organization](#code-organization)
 * [ Well-styled class definition example](#well-styled-class-definition-example)
 * [Reference](#reference)
