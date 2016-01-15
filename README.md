@@ -17,6 +17,7 @@ Any violation to the guide is allowed if it enhances readability and conciseness
 * [Use self sparingly](#use-self-sparingly)
 * [Closures Declarations](#closures-declarations)
 * [Types](#closures-declarations)
+* [Generics](#closures-declarations)
 * [Control Flow](#closures-declarations)
 * [Types](#closures-declarations)
 * [Error Handling](#closures-declarations)
