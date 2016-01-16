@@ -2,7 +2,7 @@
 
 import Foundation
 
-var str = "Hello, playground"
+
 
 //: [Next](@next)
 // Playground - noun: a place where people can play
