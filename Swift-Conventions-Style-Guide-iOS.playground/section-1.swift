@@ -63,7 +63,7 @@ var currentDirection = CompassPoint.West
 let rememberedDirection = currentDirection
 currentDirection = .East
 if rememberedDirection == .West {
-    println("The remembered direction is still .West")
+    print("The remembered direction is still .West")
 }
 // prints "The remembered direction is still .West"
 //////////////////////////////////////////////////////////////////////////////--
@@ -286,7 +286,7 @@ for person in attendeeList {
 }
 //Not Preferred:
 for var i = 0; i < 3; i++ {
-    println("Hello three times")
+    print("Hello three times")
 }
 
 for var i = 0; i < attendeeList.count; i++ {
