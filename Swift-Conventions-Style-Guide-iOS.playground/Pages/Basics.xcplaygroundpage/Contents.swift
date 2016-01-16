@@ -1,8 +1,3 @@
-// Playground - noun: a place where people can play
-//See TODOs for code conventions or the preffered way
-//see https://github.com/raywenderlich/swift-style-guide
-//see https://github.com/github/swift-style-guide
-
 import UIKit
 //MARK: - Swift Style playground
 var str = "Hello, Swift Style playground"
@@ -363,5 +358,11 @@ For example:backColor, doSomeThing, someFunction*/
 //lower camel case: thisIsAnExample. ThisIsNotAnExample.
 
 ////////////////////////////////////////////////////////////////////////////////
+
+// Playground - noun: a place where people can play
+//See TODOs for code conventions or the preffered way
+//see https://github.com/raywenderlich/swift-style-guide
+//see https://github.com/github/swift-style-guide
+
 
 print("End Playgroud")
