@@ -3,5 +3,7 @@
     <pages>
         <page name='Basics'/>
         <page name='Comments'/>
+        <page name='Braces'/>
+        <page name='Naming Types'/>
     </pages>
 </playground>
