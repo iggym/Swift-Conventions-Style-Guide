@@ -366,3 +366,7 @@ For example:backColor, doSomeThing, someFunction*/
 
 
 print("End Playgroud")
+
+
+//: [Next](@next)
+
