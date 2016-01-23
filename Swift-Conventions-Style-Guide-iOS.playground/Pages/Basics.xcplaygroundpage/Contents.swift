@@ -154,6 +154,11 @@ func reticulateSplines(spline: [Double]) -> Bool {
 //For functions with long signatures, add line breaks at appropriate points
 //and add an extra indent on subsequent lines:
 
+/// - Complexity: O(1).
+/// - Complexity: O(*length of result*).
+/// - Complexity:
+///      O(`self.count + newElements.count`)”
+
 func reticulateSplines(spline: [Double], adjustmentFactor: Double,
     translateConstant: Int, comment: String) -> Bool {
         // reticulate code goes here
