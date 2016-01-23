@@ -1,4 +1,8 @@
 //: [Previous](@previous)
+/// - Authors:
+///   - John Doe
+///   - Jane Doe
+
 
 import Foundation
 
