@@ -28,6 +28,8 @@ Comments should be current and relevant to explaining why
 */
 // TODO: Use comments to explain WHY a particular piece of code does something.
 //does Some Stuff because there is stuff to do
+
+/// Test 
 func doSomeStuff(){
     
 }
