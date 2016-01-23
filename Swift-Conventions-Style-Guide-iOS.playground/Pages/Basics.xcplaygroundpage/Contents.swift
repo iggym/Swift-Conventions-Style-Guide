@@ -245,6 +245,9 @@ var centerPoint1 = CGPointMake(96, 42)
 //the type for a constant or variable.
 
 //Preferred:
+
+
+
 func computeViewBounds() -> CGRect{
     return CGRect(x: 0.0, y: 0.0, width: 200.0, height: 40.0)
 }
