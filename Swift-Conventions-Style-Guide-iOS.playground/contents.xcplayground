@@ -2,6 +2,7 @@
 <playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='Contents'/>
+        <page name='Untitled Page'/>
         <page name='Basics'/>
         <page name='Comments'/>
         <page name='Braces'/>
@@ -9,6 +10,5 @@
         <page name='Naming Variables and Constants'/>
         <page name='Naming Swift Modules'/>
         <page name='Links'/>
-        <page name='Untitled Page'/>
     </pages>
 </playground>
