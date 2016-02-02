@@ -299,7 +299,6 @@ for var i = 0; i < attendeeList.count; i++ {
 
 
 
-
 //TODO: - Use US English spelling to match Apple's API.
 
 //Preferred:
