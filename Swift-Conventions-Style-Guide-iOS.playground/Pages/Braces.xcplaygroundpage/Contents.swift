@@ -50,27 +50,6 @@ by Aesop
 */
 
 
-/**
-An example of using a *bulleted list*
-
-* item 1
-* item 2
-* item 2.1
-* item 3
-*/
-
-
-/**
-An example of using a *code block*
-
-A loop to print each character on a seperate line
-
-for character in "Aesop" {
-println(character)}
-}
-*/
-
-
 
 
 /*: Create a bulleted list of animals
