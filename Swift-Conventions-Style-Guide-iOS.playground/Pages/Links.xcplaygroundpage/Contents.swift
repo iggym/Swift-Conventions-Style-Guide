@@ -29,7 +29,6 @@ import Foundation
 
 //: ![Icon for a playground](http://devimages.apple.com.edgekey.net/swift/images/playgrounds.png "An image I seesawed")
 
-
 /*: Setup and use a link reference.
 [The Swift Programming Language]: http://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ "Some hover text"
 

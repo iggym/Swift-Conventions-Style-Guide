@@ -5,7 +5,6 @@
         <page name='Comments'/>
         <page name='Braces'/>
         <page name='Naming Types'/>
-        <page name='Naming Variables and Constants'/>
         <page name='Naming Swift Modules'/>
         <page name='Links'/>
     </pages>
