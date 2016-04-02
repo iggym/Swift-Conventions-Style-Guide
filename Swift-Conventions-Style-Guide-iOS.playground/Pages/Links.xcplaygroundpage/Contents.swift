@@ -10,8 +10,6 @@ import Foundation
 * Llama
 */
 
-///
-
 
 // Playground - noun: a place where people can play
 //See TODOs for code conventions or the preffered way
